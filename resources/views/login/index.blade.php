@@ -38,12 +38,6 @@
                 <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
                 <label for="password">Password</label>
               </div>
-
-              <div class="form-group row">
-                <label class="mb-2 center"></label>
-                <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
-              </div>
-
               <button class="w-100 btn btn-lg btn-danger mt-3" type="submit">Login</button>
             </form>
             <small class="p">Not registered? <a href="/register" style="color:#e28383;">Register Now! </a></small>
