@@ -52,11 +52,6 @@
                @enderror
               </div>
               
-              <div class="form-group row">
-                <label class="mb-2 center"></label>
-                <div class="col-md-6"> {!! htmlFormSnippet() !!} </div>
-              </div>
-
               <button class="w-100 btn btn-lg btn-danger mt-3" type="submit">Register</button>
             </form>
             <small class="p">Already registered? <a href="/login" style="color:#e28383;">Login </a></small>
